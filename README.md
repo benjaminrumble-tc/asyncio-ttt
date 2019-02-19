@@ -11,7 +11,7 @@ Within a single threaded Python process you can easily have orders of magnitude 
 ### History
 * March 2014: Python 3.4 released introducing `asyncio` for the first time. It was flagged as "provisional" initially.
 * September 2015: Python 3.5 added async and await syntax for coroutines were introduced as part of [PEP 492](https://www.python.org/dev/peps/pep-0492/)
-* December 2016: Python 3.6 declares the `asyncio` API as stable, rather than provisional. Also introduction of asynchronous generators (i.e using `yield` in a function defined with `async def function_name`).
+* December 2016: Python 3.6 declares the `asyncio` API as stable, rather than provisional. Introduction of asynchronous generators (i.e using `yield` in a function defined with `async def function_name`).
 * June 2018: Python 3.7 introduced a provisional `asyncio.run()` function making it far easier to call an async coroutine from synchronous code.
 
 
