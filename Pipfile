@@ -10,6 +10,7 @@ mypy = "*"
 requests = "*"
 aiohttp = "*"
 flask = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"

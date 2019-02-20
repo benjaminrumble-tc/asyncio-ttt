@@ -9,10 +9,10 @@ async def handle_index(request):
     """index handler"""
     async with session.get('https://httpbin.org/get?request=1') as resp:
         json_response = await resp.json()
-        return aiohttp.web.json_response(json_response)
+        return web.json_response(json_response)
 
 def make_app():
-    app = aiohttp.web.Application()
+    app = web.Application()
     app.add_routes([
         web.get('/', handle_index),
     ])
